@@ -75,6 +75,9 @@ app.get("/logout",function(req,res){
   res.render("home");
 });
 
+app.get("/submit",function(req,res){
+  res.render("submit");
+});
 
 
 app.listen(3000,function(){
